@@ -1,0 +1,19 @@
+.App > section {
+  padding: 40px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.App > section:first-child {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.App > section:nth-child(2n) {
+  background-color: #efefef;
+}
+
+.App-examples-wrap {
+  width: 600px;
+}
