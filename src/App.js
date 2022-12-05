@@ -1,13 +1,11 @@
-import ScramblePage from "./scramble/ScramblePage";
-import ScrambleTitle from "./scramble/ScrambleTitle";
+import ScrambleLogic from "./components/ScrambleLogic";
 
 function App() {
   return (
     <div>
-      <ScrambleTitle />
-      <ScramblePage>
-        <script src="./scramble/js/script" type="text/javascript"></script>
-      </ScramblePage>
+      {/* <ScrambleTitle /> */}
+      {/* <ScramblePage /> */}
+      <ScrambleLogic />
     </div>
   );
 }
