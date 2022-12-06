@@ -1,9 +1,10 @@
 import ScrambleLogic from "./Components/ScrambleLogic";
 
+import "./App.css";
+
 function App() {
   return (
     <div>
-      {/* <ScrambleTitle /> */}
       {/* <ScramblePage /> */}
       <ScrambleLogic />
     </div>
