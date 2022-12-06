@@ -1,5 +1,3 @@
-import data from "../Data/data.json";
-
 const shuffle = (array) => {
   let currentIndex = array.length,
     temporaryValue,
@@ -20,19 +18,4 @@ const shuffle = (array) => {
   return array;
 };
 
-const initGame = () => {
-  //   let scrambledData = shuffle(data);
-  //   console.log(scrambledData);
-
-  const findAWord = data.Teacher1.word1.split("");
-  const shuffledWord = shuffle(findAWord);
-  //   console.log(shuffledWord);
-
-  return (
-    <>
-      <h2>{shuffledWord}</h2>
-    </>
-  );
-};
-
-export default initGame;
+export default shuffle;
