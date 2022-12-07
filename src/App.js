@@ -1,4 +1,4 @@
-import ScrambleLogic from "./Components/ScrambleLogic";
+import ScrambleLogic from "./pages/ScramblePage";
 
 function App() {
   return (
