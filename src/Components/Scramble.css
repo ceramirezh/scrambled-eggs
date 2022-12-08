@@ -1,4 +1,5 @@
 .buttonClass {
+  margin-bottom: 20px;
   font-size: 15px;
   font-family: Arial;
   width: 140px;
@@ -19,6 +20,11 @@
   background: linear-gradient(#476e9e, rgb(120, 146, 194));
 }
 
+.mainDiv {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mainBox {
   display: flex;
   margin-left: auto;
@@ -36,6 +42,8 @@
 
 .shuffledWord {
   display: flex;
+  color: white;
+  font-size: 24px;
   width: 100%;
   justify-content: center;
   align-content: cenetr;
