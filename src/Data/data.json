@@ -1,8 +1,34 @@
-{
-  "Teacher1": {
-    "word1": "hola",
-    "word2": "como",
-    "word3": "estas"
+
+[
+  { 
+    "swen": 
+      [
+        "Farm animals are nice",
+        "Typescript is very popular for a reason",
+        "Toke is like a hotel card"
+      ]
   },
-  "Teacher2": { "word1": "estas" }
-}
+  {
+    "karla":
+      [
+        "I love my bunnies",
+        "Check yourself every step",
+        "Console log is your friend"
+      ]
+  },
+  {
+    "maria":
+    [
+      "it's gonna be fine",
+      "it's good kinda creazy"
+    ]
+  },  
+  {
+    "xiaodan":
+    [
+      "I am organized choas",
+      "it's good kinda creazy"
+    ]
+  }
+]
+
