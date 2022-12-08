@@ -2,15 +2,18 @@ import data from "../Data/data.json";
 import shuffle from "../Components/Shuffle";
 import ScrambleCard from "../Components/ScrambleCard";
 import "../Components/Scramble.css";
+// import { useState } from "react";
+import AuthorName from "../Components/AuthorName";
 
 const InitGame = () => {
+  // const [authorHidden, setAuthorHidden] = useState(false);
   const dataLength = data.length;
   const pickRandomItemFromArray = Math.floor(Math.random() * dataLength);
 
   const test = data[pickRandomItemFromArray];
 
   const quoteAuthor = Object.keys(test);
-  //   console.log("author", quoteAuthor);
+  // console.log("author", quoteAuthor);
 
   const arrayOfQuotes = test[Object.keys(test)[0]];
   //   console.log("array of quotes", arrayOfQuotes);
@@ -51,6 +54,11 @@ const InitGame = () => {
           />
         ))}
       </div>
+      <AuthorName
+        // authorHidden={authorHidden}
+        quoteAuthor={quoteAuthor}
+        // setAuthorHidden={setAuthorHidden}
+      />
     </div>
   );
 };

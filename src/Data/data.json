@@ -1,34 +1,34 @@
-
 [
-  { 
-    "swen": 
-      [
-        "Farm animals are nice",
-        "Typescript is very popular for a reason",
-        "Toke is like a hotel card"
-      ]
+  {
+    "Swen": [
+      "Farm animals are nice!",
+      "Typescript is very popular for a reason",
+      "Token is like a hotel card"
+    ]
   },
   {
-    "karla":
-      [
-        "I love my bunnies",
-        "Check yourself every step",
-        "Console log is your friend"
-      ]
+    "Karla": [
+      "You chose poorly",
+      "I love my bunnies",
+      "Check every step",
+      "Console log is your friend"
+    ]
   },
   {
-    "maria":
-    [
-      "it's gonna be fine",
-      "it's good kinda creazy"
+    "Maria": [
+      "It's gonna be fine",
+      "It's kind of crazy",
+      "It's really cool guys!",
+      "You are going to love this!"
     ]
-  },  
+  },
   {
-    "xiaodan":
-    [
-      "I am organized choas",
-      "it's good kinda creazy"
-    ]
+    "Xiaodan": ["I am organized choas", "it's good kinda crazy"]
+  },
+  {
+    "Esteban": ["Can you be my rubber duck, Maria?"]
+  },
+  {
+    "Gijs": ["Who is up for a Css competition?"]
   }
 ]
-

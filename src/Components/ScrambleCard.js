@@ -2,15 +2,17 @@ import { useState, useEffect } from "react";
 import "./Scramble.css";
 
 const ScrambleCard = ({ oneWord, allWords, index }) => {
-  const [time, setTime] = useState(45);
+  const [time, setTime] = useState(30);
   const [word, setWord] = useState("");
 
   useEffect(() => {
-    if (time > 0 && time !== 0) {
+    if (time > 0) {
       const interval = setInterval(() => {
         setTime((time) => time - 1);
       }, 1000);
       return () => clearInterval(interval);
+    } else {
+      clearInterval();
     }
   }, []);
 
