@@ -1,9 +1,10 @@
 import ScrambleLogic from "./pages/ScramblePage";
 
+import "./App.css";
+
 function App() {
   return (
     <div>
-      {/* <ScrambleTitle /> */}
       {/* <ScramblePage /> */}
       <ScrambleLogic />
     </div>
