@@ -1,4 +1,4 @@
-import ScrambleLogic from "./pages/ScramblePage";
+import ScrambleLogic from "./Pages/ScramblePage";
 
 import { Routes, Route } from "react-router-dom";
 
